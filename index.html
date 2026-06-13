@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DadBot Deluxe 🎂</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="balloons"></div>
+
+<div class="container">
+
+  <h1>🎂 Happy Birthday Dad!</h1>
+  <h2>🤖 DadBot Deluxe</h2>
+
+  <div class="chatbox" id="chatbox">
+    <div class="msg bot">🎉 Hi Dad! I’m DadBot Deluxe — your birthday AI assistant!</div>
+  </div>
+
+  <div class="buttons">
+    <button onclick="quick('joke')">😂 Joke</button>
+    <button onclick="quick('recipe')">🍳 Veg Recipes</button>
+    <button onclick="quick('music')">🎵 Music</button>
+    <button onclick="quick('travel')">🌍 Travel</button>
+    <button onclick="quick('fact')">📚 Facts</button>
+  </div>
+
+  <div class="input-area">
+    <input id="input" placeholder="Ask me anything..." />
+    <button onclick="send()">Send</button>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
